@@ -1,0 +1,58 @@
+.timeline {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 30px;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background-color: #2978b5;
+    border-radius: 3px;
+}
+
+.etude {
+    position: relative;
+    margin-bottom: 3em;
+}
+
+.etude-marker {
+    position: absolute;
+    left: -1px;
+    width: 14px;
+    height: 14px;
+    background-color: #2978b5;
+    transform: rotate(45deg);
+    top: 2px;
+}
+
+.etude-content {
+    padding-left: 30px;
+}
+
+.etude-annees {
+    font-weight: bold;
+    color: #2978b5;
+    margin: 0 0 0.3em 0;
+}
+
+.etude-nom {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.etude-etablissement {
+    margin: 0.2em 0 0.4em 0;
+    font-style: italic;
+    color: #666;
+}
+
+.etude-desc {
+    margin: 0;
+    max-width: 500px;
+}

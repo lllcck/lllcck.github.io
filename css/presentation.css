@@ -1,0 +1,14 @@
+.presentation {
+    flex-direction: column;
+
+
+}
+
+.presentation-description {
+      font-size: 1rem;
+      max-width: 600px;
+}
+
+.presentation-nom {
+    color: 2978b5;
+}

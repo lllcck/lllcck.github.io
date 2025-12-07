@@ -1,0 +1,30 @@
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+    font-size: 1.1rem;
+    color: #444;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.contact-item:hover {
+    color: #2978b5;
+}
+
+.contact-icon {
+    font-size: 1.4rem;
+    color: #2978b5;
+}
+
+.contact-text {
+    font-weight: 500;
+}

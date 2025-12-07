@@ -1,0 +1,32 @@
+.competences-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 2em;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.competence {
+    padding: 1em;
+    text-align: center;
+}
+
+.competence h3 {
+    margin-bottom: 0.8em;
+    color: #2978b5;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.competence ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.competence li {
+    margin: 0.4em 0;
+    font-size: 0.95rem;
+    color: #444;
+}
